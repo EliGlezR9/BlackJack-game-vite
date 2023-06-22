@@ -1,0 +1,63 @@
+/*** variables globales ***/
+
+:root{
+  /*** Colores ***/
+  --colorFondo: #046e0d;
+  --colorSecundario: #042607;
+  --colorLetras: #ffffff;
+  --colorNegro: #000000;
+  --colorBoton: #9c0606;
+  --colorBoton2: #232121;
+  
+}
+
+html, body{
+  background-color: var(--colorFondo);
+  margin: 0px;
+  color: var(--colorLetras);
+}
+footer{
+  background-color: var(--colorSecundario);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+.titulo{
+  background-color: var(--colorNegro);
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.boton--principal{
+  border-radius: .5rem;
+  padding: .5rem;
+  background-color: var(--colorBoton);
+  border: none;
+  font-size: 1.2rem;
+  color: var(--colorLetras);
+}
+
+.boton--secundario{
+  border-radius: .5rem;
+  padding: .5rem;
+  background-color: var(--colorBoton2);
+  border: none;
+  font-size: 1.2rem;
+  color: var(--colorLetras);
+}
+
+#player-cartas, #CPU-cartas{
+  height: 15rem;
+}
+.carta{
+  position: relative;
+  left: 3rem;
+  margin-left: -3.2rem;
+  width: max-content;
+  height: 12rem;
+}
